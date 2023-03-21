@@ -1,0 +1,42 @@
+.top-div{
+  display: flex;
+}
+.dashBoard{
+  display: flex;
+  width:50%
+}
+.dashBoard{
+  display: flex;
+  width:50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.addTransactions{
+  width:50%
+}
+.history{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  background-color: whitesmoke;
+}
+th ,tr,td{
+   border: 1px  solid black;
+   border-collapse: collapse;
+}
+tr:nth-child(even){
+  background-color: rgb(25, 143, 35);
+}
+.chartstyle{
+width: "400px";
+height: '300px'
+}
+.chartdiv{
+  height: 400px;
+  width: 100vw;
+}
+.main-accounts{
+  height: 100VH;
+  width: 100VW;
+}
